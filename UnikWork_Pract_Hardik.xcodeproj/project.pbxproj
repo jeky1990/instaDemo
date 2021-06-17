@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		617423A9DC23EF4B9790073C /* Pods_UnikWork_Pract_Hardik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7CC379609283428571E05DC /* Pods_UnikWork_Pract_Hardik.framework */; };
+		F13E380E2630080E009E906D /* commentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E380D2630080E009E906D /* commentViewController.swift */; };
+		F1B2A421262AC4FD00F02228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A420262AC4FD00F02228 /* AppDelegate.swift */; };
+		F1B2A423262AC4FD00F02228 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A422262AC4FD00F02228 /* SceneDelegate.swift */; };
+		F1B2A425262AC4FD00F02228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A424262AC4FD00F02228 /* ViewController.swift */; };
+		F1B2A428262AC4FD00F02228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B2A426262AC4FD00F02228 /* Main.storyboard */; };
+		F1B2A42A262AC4FE00F02228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B2A429262AC4FE00F02228 /* Assets.xcassets */; };
+		F1B2A42D262AC4FE00F02228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B2A42B262AC4FE00F02228 /* LaunchScreen.storyboard */; };
+		F1B2A438262AC5F000F02228 /* InstagramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A436262AC5F000F02228 /* InstagramData.swift */; };
+		F1B2A439262AC5F000F02228 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A437262AC5F000F02228 /* User.swift */; };
+		F1B2A43F262AC68E00F02228 /* InstagramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A43D262AC68E00F02228 /* InstagramCell.swift */; };
+		F1B2A440262AC68E00F02228 /* InstagramCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1B2A43E262AC68E00F02228 /* InstagramCell.xib */; };
+		F1B2A447262ACDFD00F02228 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A445262ACDFD00F02228 /* ImageCollectionViewCell.swift */; };
+		F1B2A448262ACDFD00F02228 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1B2A446262ACDFD00F02228 /* ImageCollectionViewCell.xib */; };
+		F1B2A44C262AD1C100F02228 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A44B262AD1C100F02228 /* Constants.swift */; };
+		F1B2A451262AD49400F02228 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B2A450262AD49400F02228 /* APIManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7CC379609283428571E05DC /* Pods_UnikWork_Pract_Hardik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnikWork_Pract_Hardik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C198B637271D370C57D31FCD /* Pods-UnikWork_Pract_Hardik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnikWork_Pract_Hardik.debug.xcconfig"; path = "Target Support Files/Pods-UnikWork_Pract_Hardik/Pods-UnikWork_Pract_Hardik.debug.xcconfig"; sourceTree = "<group>"; };
+		E512BCA95072636A2576FA00 /* Pods-UnikWork_Pract_Hardik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnikWork_Pract_Hardik.release.xcconfig"; path = "Target Support Files/Pods-UnikWork_Pract_Hardik/Pods-UnikWork_Pract_Hardik.release.xcconfig"; sourceTree = "<group>"; };
+		F13E380D2630080E009E906D /* commentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentViewController.swift; sourceTree = "<group>"; };
+		F1B2A41D262AC4FD00F02228 /* UnikWork_Pract_Hardik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnikWork_Pract_Hardik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B2A420262AC4FD00F02228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1B2A422262AC4FD00F02228 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1B2A424262AC4FD00F02228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1B2A427262AC4FD00F02228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1B2A429262AC4FE00F02228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1B2A42C262AC4FE00F02228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1B2A42E262AC4FE00F02228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B2A436262AC5F000F02228 /* InstagramData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramData.swift; sourceTree = "<group>"; };
+		F1B2A437262AC5F000F02228 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F1B2A43D262AC68E00F02228 /* InstagramCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCell.swift; sourceTree = "<group>"; };
+		F1B2A43E262AC68E00F02228 /* InstagramCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstagramCell.xib; sourceTree = "<group>"; };
+		F1B2A445262ACDFD00F02228 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F1B2A446262ACDFD00F02228 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		F1B2A44B262AD1C100F02228 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F1B2A450262AD49400F02228 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1B2A41A262AC4FD00F02228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617423A9DC23EF4B9790073C /* Pods_UnikWork_Pract_Hardik.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A85F3D301C17DDC07F78399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C198B637271D370C57D31FCD /* Pods-UnikWork_Pract_Hardik.debug.xcconfig */,
+				E512BCA95072636A2576FA00 /* Pods-UnikWork_Pract_Hardik.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C817039D8AFA4913842F126F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC379609283428571E05DC /* Pods_UnikWork_Pract_Hardik.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1B2A414262AC4FD00F02228 = {
+			isa = PBXGroup;
+			children = (
+				F1B2A41F262AC4FD00F02228 /* UnikWork_Pract_Hardik */,
+				F1B2A41E262AC4FD00F02228 /* Products */,
+				3A85F3D301C17DDC07F78399 /* Pods */,
+				C817039D8AFA4913842F126F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1B2A41E262AC4FD00F02228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1B2A41D262AC4FD00F02228 /* UnikWork_Pract_Hardik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1B2A41F262AC4FD00F02228 /* UnikWork_Pract_Hardik */ = {
+			isa = PBXGroup;
+			children = (
+				F1B2A44F262AD47700F02228 /* APIManager */,
+				F1B2A44A262AD1A800F02228 /* Resources */,
+				F1B2A435262AC5C800F02228 /* Model */,
+				F1B2A43C262AC65600F02228 /* View */,
+				F1B2A443262ACBC400F02228 /* ViewModel */,
+				F1B2A420262AC4FD00F02228 /* AppDelegate.swift */,
+				F1B2A422262AC4FD00F02228 /* SceneDelegate.swift */,
+				F1B2A429262AC4FE00F02228 /* Assets.xcassets */,
+				F1B2A42B262AC4FE00F02228 /* LaunchScreen.storyboard */,
+				F1B2A42E262AC4FE00F02228 /* Info.plist */,
+			);
+			path = UnikWork_Pract_Hardik;
+			sourceTree = "<group>";
+		};
+		F1B2A435262AC5C800F02228 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1B2A436262AC5F000F02228 /* InstagramData.swift */,
+				F1B2A437262AC5F000F02228 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1B2A43C262AC65600F02228 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1B2A426262AC4FD00F02228 /* Main.storyboard */,
+				F1B2A458262AFB4C00F02228 /* InstagramTableViewCell */,
+				F1B2A45C262AFBCA00F02228 /* InstagramCollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1B2A443262ACBC400F02228 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1B2A424262AC4FD00F02228 /* ViewController.swift */,
+				F13E380D2630080E009E906D /* commentViewController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1B2A44A262AD1A800F02228 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1B2A44B262AD1C100F02228 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F1B2A44F262AD47700F02228 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				F1B2A450262AD49400F02228 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		F1B2A458262AFB4C00F02228 /* InstagramTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1B2A43D262AC68E00F02228 /* InstagramCell.swift */,
+				F1B2A43E262AC68E00F02228 /* InstagramCell.xib */,
+			);
+			path = InstagramTableViewCell;
+			sourceTree = "<group>";
+		};
+		F1B2A45C262AFBCA00F02228 /* InstagramCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1B2A445262ACDFD00F02228 /* ImageCollectionViewCell.swift */,
+				F1B2A446262ACDFD00F02228 /* ImageCollectionViewCell.xib */,
+			);
+			path = InstagramCollectionViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1B2A41C262AC4FD00F02228 /* UnikWork_Pract_Hardik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B2A431262AC4FE00F02228 /* Build configuration list for PBXNativeTarget "UnikWork_Pract_Hardik" */;
+			buildPhases = (
+				F075B247F547140B2BC5DE4E /* [CP] Check Pods Manifest.lock */,
+				F1B2A419262AC4FD00F02228 /* Sources */,
+				F1B2A41A262AC4FD00F02228 /* Frameworks */,
+				F1B2A41B262AC4FD00F02228 /* Resources */,
+				4D576D698264F57480325189 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnikWork_Pract_Hardik;
+			productName = UnikWork_Pract_Hardik;
+			productReference = F1B2A41D262AC4FD00F02228 /* UnikWork_Pract_Hardik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1B2A415262AC4FD00F02228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F1B2A41C262AC4FD00F02228 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F1B2A418262AC4FD00F02228 /* Build configuration list for PBXProject "UnikWork_Pract_Hardik" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1B2A414262AC4FD00F02228;
+			productRefGroup = F1B2A41E262AC4FD00F02228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1B2A41C262AC4FD00F02228 /* UnikWork_Pract_Hardik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1B2A41B262AC4FD00F02228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B2A440262AC68E00F02228 /* InstagramCell.xib in Resources */,
+				F1B2A42D262AC4FE00F02228 /* LaunchScreen.storyboard in Resources */,
+				F1B2A42A262AC4FE00F02228 /* Assets.xcassets in Resources */,
+				F1B2A428262AC4FD00F02228 /* Main.storyboard in Resources */,
+				F1B2A448262ACDFD00F02228 /* ImageCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D576D698264F57480325189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnikWork_Pract_Hardik/Pods-UnikWork_Pract_Hardik-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnikWork_Pract_Hardik/Pods-UnikWork_Pract_Hardik-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnikWork_Pract_Hardik/Pods-UnikWork_Pract_Hardik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F075B247F547140B2BC5DE4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnikWork_Pract_Hardik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1B2A419262AC4FD00F02228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B2A425262AC4FD00F02228 /* ViewController.swift in Sources */,
+				F1B2A438262AC5F000F02228 /* InstagramData.swift in Sources */,
+				F1B2A43F262AC68E00F02228 /* InstagramCell.swift in Sources */,
+				F1B2A451262AD49400F02228 /* APIManager.swift in Sources */,
+				F1B2A447262ACDFD00F02228 /* ImageCollectionViewCell.swift in Sources */,
+				F1B2A421262AC4FD00F02228 /* AppDelegate.swift in Sources */,
+				F13E380E2630080E009E906D /* commentViewController.swift in Sources */,
+				F1B2A439262AC5F000F02228 /* User.swift in Sources */,
+				F1B2A423262AC4FD00F02228 /* SceneDelegate.swift in Sources */,
+				F1B2A44C262AD1C100F02228 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1B2A426262AC4FD00F02228 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1B2A427262AC4FD00F02228 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1B2A42B262AC4FE00F02228 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1B2A42C262AC4FE00F02228 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1B2A42F262AC4FE00F02228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1B2A430262AC4FE00F02228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1B2A432262AC4FE00F02228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C198B637271D370C57D31FCD /* Pods-UnikWork_Pract_Hardik.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y57TJT2FAB;
+				INFOPLIST_FILE = UnikWork_Pract_Hardik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unikwork-pract.hardik.UnikWork-Pract-Hardik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1B2A433262AC4FE00F02228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E512BCA95072636A2576FA00 /* Pods-UnikWork_Pract_Hardik.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y57TJT2FAB;
+				INFOPLIST_FILE = UnikWork_Pract_Hardik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unikwork-pract.hardik.UnikWork-Pract-Hardik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1B2A418262AC4FD00F02228 /* Build configuration list for PBXProject "UnikWork_Pract_Hardik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B2A42F262AC4FE00F02228 /* Debug */,
+				F1B2A430262AC4FE00F02228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B2A431262AC4FE00F02228 /* Build configuration list for PBXNativeTarget "UnikWork_Pract_Hardik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B2A432262AC4FE00F02228 /* Debug */,
+				F1B2A433262AC4FE00F02228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1B2A415262AC4FD00F02228 /* Project object */;
+}
